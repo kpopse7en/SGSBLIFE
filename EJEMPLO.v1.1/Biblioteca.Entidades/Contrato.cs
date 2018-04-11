@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Biblioteca.DALC;
+
 namespace Biblioteca.Entidades
 {
     public class Contrato
@@ -38,6 +39,7 @@ namespace Biblioteca.Entidades
                 Con = new DALC.Contrato();
                 Biblioteca.DALC.Plan Plan;
                 Plan = new DALC.Plan();
+                
                 Con.Numero = this.NumeroContrato;
                 Con.FechaCreacion = this.Creacion;
                 Con.RutCliente = this.Titular;
@@ -169,8 +171,10 @@ namespace Biblioteca.Entidades
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
+                    Con.Termino = (DateTime)item.FechaTermino;
                     Con.Titular = item.RutCliente;
                     Con.PlanAsociado = item.CodigoPlan;
+                    Con.Poliza = item.Plan.PolizaActual;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
                     Con.Vigente = item.Vigente;
@@ -204,8 +208,10 @@ namespace Biblioteca.Entidades
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
+                    Con.Termino = (DateTime)item.FechaTermino;
                     Con.Titular = item.RutCliente;
                     Con.PlanAsociado = item.CodigoPlan;
+                    Con.Poliza = item.Plan.PolizaActual;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
                     Con.Vigente = item.Vigente;
@@ -240,8 +246,10 @@ namespace Biblioteca.Entidades
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
+                    Con.Termino = (DateTime)item.FechaTermino;
                     Con.Titular = item.RutCliente;
                     Con.PlanAsociado = item.CodigoPlan;
+                    Con.Poliza = item.Plan.PolizaActual;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
                     Con.Vigente = item.Vigente;
@@ -278,9 +286,10 @@ namespace Biblioteca.Entidades
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
+                    Con.Termino = (DateTime)item.FechaTermino;
                     Con.Titular = item.RutCliente;
                     Con.PlanAsociado = item.CodigoPlan;
-
+                    Con.Poliza = item.Plan.PolizaActual;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
                     Con.Vigente = item.Vigente;
