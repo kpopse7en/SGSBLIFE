@@ -12,6 +12,7 @@ namespace Biblioteca.Entidades
         public DateTime Creacion { get; set; }
         public DateTime Termino { get; set; }
         public String Titular { get; set; }
+        public String Poliza{ get; set; }
         public String PlanAsociado { get; set; }
         //poliza?? la realizo aca en el diagrama de clases sale pero en el modelo no aparece
         public DateTime InicioVigencia { get; set; }
@@ -34,11 +35,15 @@ namespace Biblioteca.Entidades
             try
             {
                 Biblioteca.DALC.Contrato Con;
-                Con = new DALC.Contrato;
+                Con = new DALC.Contrato();
+                Biblioteca.DALC.Plan Plan;
+                Plan = new DALC.Plan();
                 Con.Numero = this.NumeroContrato;
                 Con.FechaCreacion = this.Creacion;
                 Con.RutCliente = this.Titular;
                 Con.CodigoPlan = this.PlanAsociado;
+                //creo que debo recorrer los planes para saber que la poliza pertenece a cierto plan
+                Plan.PolizaActual = this.Poliza;//Poliza
                 Con.FechaInicioVigencia = this.InicioVigencia;
                 Con.FechaFinVigencia = this.FinVigencia;
                 Con.Vigente = this.Vigente;
@@ -67,7 +72,8 @@ namespace Biblioteca.Entidades
                 Biblioteca.DALC.Contrato Con;
                 Con = Entidades.Contrato.First(a => a.Numero.Equals(NumeroContrato));
                 Con.Vigente = this.Vigente;//Modificar el estado a no vigente
-                //Falta poner fecha fin al contrato
+                Con.FechaTermino = this.Termino;
+                //fecha fin al contrato *
                 Entidades.SaveChanges();
                 return true;
             }
@@ -86,10 +92,15 @@ namespace Biblioteca.Entidades
 
                 Con = Entidades.Contrato.First(a => a.Numero.Equals(NumeroContrato));
 
+                Biblioteca.DALC.Plan Plan;
+                Plan = new DALC.Plan();
+
                 Con.Numero = this.NumeroContrato;
                 Con.FechaCreacion = this.Creacion;
+                Con.FechaTermino = this.Termino;//e.e
                 Con.RutCliente = this.Titular;
                 Con.CodigoPlan = this.PlanAsociado;
+                Plan.PolizaActual = this.Poliza;
                 Con.FechaInicioVigencia = this.InicioVigencia;
                 Con.FechaFinVigencia = this.FinVigencia;
                 Con.Vigente = this.Vigente;
@@ -114,12 +125,16 @@ namespace Biblioteca.Entidades
         {
             try
             {
+                Biblioteca.DALC.Plan Plan;
+                Plan = new DALC.Plan();
                 Biblioteca.DALC.Contrato Con;
                 Con = Entidades.Contrato.First(a => a.Numero.Equals(NumeroContrato));
                 this.NumeroContrato = Con.Numero;
                 this.Creacion = Con.FechaCreacion;
+                this.Termino = (DateTime)Con.FechaTermino;
                 this.Titular = Con.RutCliente;
                 this.PlanAsociado = Con.CodigoPlan;
+                this.Poliza = Plan.PolizaActual;
                 this.InicioVigencia = Con.FechaInicioVigencia;
                 this.FinVigencia = Con.FechaFinVigencia;
                 this.Vigente = Con.Vigente;
@@ -145,6 +160,9 @@ namespace Biblioteca.Entidades
                 List<Contrato> ListadoContrato = new List<Contrato>();
                 var ContratoModelo = Entidades.Contrato.ToList();
 
+                Biblioteca.DALC.Plan Plan;
+                Plan = new DALC.Plan();
+
                 foreach (var item in ContratoModelo)
                 {
                     Contrato Con = new Contrato();
@@ -155,7 +173,7 @@ namespace Biblioteca.Entidades
                     Con.PlanAsociado = item.CodigoPlan;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
-                    Con.Vigente = this.Vigente;
+                    Con.Vigente = item.Vigente;
                     Con.ConDeclaracionSalud = item.DeclaracionSalud;
                     Con.PrimaAnual = item.PrimaAnual;
                     Con.PrimaMensual = item.PrimaMensual;
@@ -190,7 +208,7 @@ namespace Biblioteca.Entidades
                     Con.PlanAsociado = item.CodigoPlan;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
-                    Con.Vigente = this.Vigente;
+                    Con.Vigente = item.Vigente;
                     Con.ConDeclaracionSalud = item.DeclaracionSalud;
                     Con.PrimaAnual = item.PrimaAnual;
                     Con.PrimaMensual = item.PrimaMensual;
@@ -226,7 +244,7 @@ namespace Biblioteca.Entidades
                     Con.PlanAsociado = item.CodigoPlan;
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
-                    Con.Vigente = this.Vigente;
+                    Con.Vigente = item.Vigente;
                     Con.ConDeclaracionSalud = item.DeclaracionSalud;
                     Con.PrimaAnual = item.PrimaAnual;
                     Con.PrimaMensual = item.PrimaMensual;
@@ -249,10 +267,10 @@ namespace Biblioteca.Entidades
             try
             {
                 //hay que corregir lo de poliza para que esto funcione
-                //List<Contrato> ListadoContrato = new List<Contrato>();
-                //var ContratoModelo = from c in Entidades.Contrato
-                //                     where c.Numero == NumeroContrato
-                //                     select c;
+                List<Contrato> ListadoContrato = new List<Contrato>();
+                var ContratoModelo = from c in Entidades.Contrato
+                                     where c.Numero == NumeroContrato
+                                     select c;
 
                 foreach (var item in ContratoModelo)
                 {
@@ -262,9 +280,10 @@ namespace Biblioteca.Entidades
                     Con.Creacion = item.FechaCreacion;
                     Con.Titular = item.RutCliente;
                     Con.PlanAsociado = item.CodigoPlan;
+
                     Con.InicioVigencia = item.FechaInicioVigencia;
                     Con.FinVigencia = item.FechaFinVigencia;
-                    Con.Vigente = this.Vigente;
+                    Con.Vigente = item.Vigente;
                     Con.ConDeclaracionSalud = item.DeclaracionSalud;
                     Con.PrimaAnual = item.PrimaAnual;
                     Con.PrimaMensual = item.PrimaMensual;
