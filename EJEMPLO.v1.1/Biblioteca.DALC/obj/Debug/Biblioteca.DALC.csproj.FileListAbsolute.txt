@@ -20,3 +20,11 @@ D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.dll
 D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.xml
 D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
 D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.csprojResolveAssemblyReference.cache
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb

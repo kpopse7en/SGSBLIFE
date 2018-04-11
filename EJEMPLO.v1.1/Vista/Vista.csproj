@@ -165,22 +165,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Logo BeLife.png" />
+    <Resource Include="ClientAdd.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ClientAdd.png" />
+    <Resource Include="ClientDelete.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Clientes.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ClientSearch.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Contratos.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ClientDelete.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ClientUpdate.png" />
@@ -198,7 +192,13 @@
     <Resource Include="ContractUpdate.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Contratos.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="DataSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Logo BeLife.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IMAGENES\" />
