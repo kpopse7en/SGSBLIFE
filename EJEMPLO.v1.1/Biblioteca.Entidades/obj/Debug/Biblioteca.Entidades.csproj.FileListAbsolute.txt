@@ -1,0 +1,18 @@
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.Entidades.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.Entidades.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\EntityFramework.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\bin\Debug\EntityFramework.xml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.csprojResolveAssemblyReference.cache
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.Entidades.dll
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.Entidades.pdb
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.dll
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\EntityFramework.dll
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.pdb
+D:\EJEMPLO\Biblioteca.Entidades\bin\Debug\EntityFramework.xml
+D:\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.dll
+D:\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.pdb
+D:\EJEMPLO\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.csprojResolveAssemblyReference.cache

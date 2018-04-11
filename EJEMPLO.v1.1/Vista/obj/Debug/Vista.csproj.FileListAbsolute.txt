@@ -1,0 +1,115 @@
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\bin\Debug\Vista.exe.config
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\bin\Debug\Vista.exe
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\bin\Debug\Vista.pdb
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\MainWindow.g.cs
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\App.g.cs
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.cache
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.lref
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\MainWindow.baml
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.g.resources
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.Properties.Resources.resources
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.exe
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\Vista.pdb
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.g.cs
+E:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\03_04\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\bin\Debug\Vista.exe.config
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.exe
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.pdb
+C:\Users\iruy_\Source\Repos\Proyecto2\EJEMPLO\Vista\bin\Debug\Vista.exe.config
+C:\Users\iruy_\Source\Repos\Proyecto2\EJEMPLO\Vista\obj\Debug\Vista.exe
+C:\Users\iruy_\Source\Repos\Proyecto2\EJEMPLO\Vista\obj\Debug\Vista.pdb
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\bin\Debug\Vista.exe
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\bin\Debug\Vista.pdb
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MainWindow.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\App.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.cache
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.lref
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MainWindow.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.g.resources
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarRut.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarRut.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarSexo.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MenuCliente.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MenuContrato.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarSexo.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MenuCliente.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\MenuContrato.baml
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarEstado.g.cs
+C:\Users\Sony\Source\Repos\Proyecto\EJEMPLO\Vista\obj\Debug\ListarEstado.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Vista.exe.config
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.exe
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Vista.exe
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Vista.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarEstado.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarRut.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarSexo.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MainWindow.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MenuCliente.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MenuContrato.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\App.g.cs
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.cache
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.lref
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarEstado.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarRut.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\ListarSexo.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MainWindow.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MenuCliente.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\MenuContrato.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.baml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.g.resources
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.Properties.Resources.resources
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Biblioteca.DALC.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Biblioteca.Entidades.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\EntityFramework.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Biblioteca.DALC.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\Biblioteca.Entidades.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Vista\bin\Debug\EntityFramework.xml
+D:\EJEMPLO\Vista\bin\Debug\Vista.exe.config
+D:\EJEMPLO\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+D:\EJEMPLO\Vista\obj\Debug\ListarEstado.g.cs
+D:\EJEMPLO\Vista\obj\Debug\ListarRut.g.cs
+D:\EJEMPLO\Vista\obj\Debug\ListarSexo.g.cs
+D:\EJEMPLO\Vista\obj\Debug\MainWindow.g.cs
+D:\EJEMPLO\Vista\obj\Debug\MenuCliente.g.cs
+D:\EJEMPLO\Vista\obj\Debug\MenuContrato.g.cs
+D:\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.g.cs
+D:\EJEMPLO\Vista\obj\Debug\App.g.cs
+D:\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.cache
+D:\EJEMPLO\Vista\obj\Debug\Vista_MarkupCompile.lref
+D:\EJEMPLO\Vista\bin\Debug\Vista.exe
+D:\EJEMPLO\Vista\bin\Debug\Vista.pdb
+D:\EJEMPLO\Vista\bin\Debug\Biblioteca.DALC.dll
+D:\EJEMPLO\Vista\bin\Debug\Biblioteca.Entidades.dll
+D:\EJEMPLO\Vista\bin\Debug\EntityFramework.dll
+D:\EJEMPLO\Vista\bin\Debug\Biblioteca.DALC.pdb
+D:\EJEMPLO\Vista\bin\Debug\Biblioteca.Entidades.pdb
+D:\EJEMPLO\Vista\bin\Debug\EntityFramework.xml
+D:\EJEMPLO\Vista\obj\Debug\ListarEstado.baml
+D:\EJEMPLO\Vista\obj\Debug\ListarRut.baml
+D:\EJEMPLO\Vista\obj\Debug\ListarSexo.baml
+D:\EJEMPLO\Vista\obj\Debug\MainWindow.baml
+D:\EJEMPLO\Vista\obj\Debug\MenuCliente.baml
+D:\EJEMPLO\Vista\obj\Debug\MenuContrato.baml
+D:\EJEMPLO\Vista\obj\Debug\wpfIngresoCliente.baml
+D:\EJEMPLO\Vista\obj\Debug\Vista.g.resources
+D:\EJEMPLO\Vista\obj\Debug\Vista.Properties.Resources.resources
+D:\EJEMPLO\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+D:\EJEMPLO\Vista\obj\Debug\Vista.exe
+D:\EJEMPLO\Vista\obj\Debug\Vista.pdb
+C:\Users\iruy_\Desktop\EJEMPLO.v1.1\Vista\bin\Debug\Vista.exe.config
+C:\Users\iruy_\Desktop\EJEMPLO.v1.1\Vista\obj\Debug\Vista.exe
+C:\Users\iruy_\Desktop\EJEMPLO.v1.1\Vista\obj\Debug\Vista.pdb
+C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\bin\Debug\Vista.exe.config
+C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\Vista.exe
+C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\Vista.pdb

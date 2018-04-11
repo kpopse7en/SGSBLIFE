@@ -1,0 +1,22 @@
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.csprojResolveAssemblyReference.cache
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+c:\users\duoc\documents\visual studio 2015\Projects\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+F:\(dey)DESARROLLO SOFTWARE ESCRITORIO Y GESTION\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
+D:\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+D:\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+D:\EJEMPLO\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
