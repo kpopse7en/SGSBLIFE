@@ -19,29 +19,29 @@ namespace Biblioteca.Entidades
         
         public List<Sexo> ListarSexo()
         {
-              try
+            try
             {
                 //coleccion del tipo clase 
                 List<Sexo> ListadoSexo = new List<Sexo>();
-                
+
                 var SexoModelo = Entidades.Sexo.ToList();
-                
+
                 foreach (DALC.Sexo item in SexoModelo)
                 {
                     Sexo Sex = new Sexo();
-                
-                  
+
+
                     Sex.IdSexo = item.IdSexo;
                     Sex.Descripcion = item.Descripcion;
-                  
+
                     //listado clientes
-                   ListadoSexo.Add(Sex);
+                    ListadoSexo.Add(Sex);
                 }
                 return ListadoSexo;
             }
-            catch (Exception )
+            catch (Exception ex)
             {
-
+                Logger.Mensaje(ex.Message);
                 return null;
             }
 
