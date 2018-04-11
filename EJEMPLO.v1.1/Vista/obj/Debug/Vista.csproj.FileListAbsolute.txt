@@ -173,3 +173,4 @@ C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\wpfIngresoClien
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\Vista.g.resources
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
