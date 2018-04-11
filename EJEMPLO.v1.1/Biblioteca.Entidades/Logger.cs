@@ -12,7 +12,7 @@ namespace Biblioteca
         {
             msg =
                 DateTime.Now + " | " + msg + Environment.NewLine;
-            File.AppendAllText(@"D:\Log.txt", msg);
+            //File.AppendAllText(@"D:\Log.txt", msg);
         }
     }
 }

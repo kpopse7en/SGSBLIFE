@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("logo%20belife.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("clientadd.png")]
 
 

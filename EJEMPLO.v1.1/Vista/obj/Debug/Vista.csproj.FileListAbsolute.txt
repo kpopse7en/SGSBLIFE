@@ -153,7 +153,6 @@ C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\bin\Debug\EntityFramework
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\bin\Debug\Biblioteca.DALC.pdb
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\bin\Debug\Biblioteca.Entidades.pdb
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\bin\Debug\EntityFramework.xml
-C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\ListarEstado.g.cs
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\ListarRut.g.cs
 C:\Users\Sony\Source\Repos\ejemplo2\EJEMPLO.v1.1\Vista\obj\Debug\ListarSexo.g.cs

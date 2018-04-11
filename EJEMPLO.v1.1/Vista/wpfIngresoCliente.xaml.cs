@@ -27,6 +27,14 @@ namespace Vista
             {
                 cboSexo.Items.Add(item.Descripcion);
             }
+
+            List<EstadoCivil> Listado2 = new EstadoCivil().ListarEstadoCivil();
+            foreach (EstadoCivil item in Listado2)
+            {
+                cboEstado.Items.Add(item.Descripcion);
+            }
+
+
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
@@ -75,6 +83,11 @@ namespace Vista
 
                 MessageBox.Show("Error al Ingresar");
             }
+        }
+
+        private void cboSexo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
