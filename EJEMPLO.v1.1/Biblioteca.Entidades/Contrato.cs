@@ -19,7 +19,7 @@ namespace Biblioteca.Entidades
         public DateTime InicioVigencia { get; set; }
         public DateTime FinVigencia { get; set; }
         public Boolean Vigente { get; set; }
-        public Boolean ConDeclaracionSalud { get; set; }
+        public Boolean ConDeclaracionSalud { get; set; }//boolean estado checkbox
         public Double PrimaAnual { get; set; }
         public Double PrimaMensual { get; set; }
         public String Observaciones { get; set; }
@@ -127,8 +127,8 @@ namespace Biblioteca.Entidades
         {
             try
             {
-                Biblioteca.DALC.Plan Plan;
-                Plan = new DALC.Plan();
+                Biblioteca.Entidades.Plan Plan;
+                Plan = new Entidades.Plan();
                 Biblioteca.DALC.Contrato Con;
                 Con = Entidades.Contrato.First(a => a.Numero.Equals(NumeroContrato));
                 this.NumeroContrato = Con.Numero;
@@ -136,6 +136,7 @@ namespace Biblioteca.Entidades
                 this.Termino = (DateTime)Con.FechaTermino;
                 this.Titular = Con.RutCliente;
                 this.PlanAsociado = Con.CodigoPlan;
+                Plan.BuscarPlan(Con.CodigoPlan);
                 this.Poliza = Plan.PolizaActual;
                 this.InicioVigencia = Con.FechaInicioVigencia;
                 this.FinVigencia = Con.FechaFinVigencia;

@@ -50,6 +50,26 @@ namespace Biblioteca.Entidades
 
 
         }
+        public bool BuscarPlan(string codigo)
+        {
+            try
+            {
+
+                DALC.Plan PlanModelo = Entidades.Plan.First(p => p.IdPlan.Equals(codigo));
+
+                this.Nombre = PlanModelo.Nombre;
+                this.PrimaBase = PlanModelo.PrimaBase;
+                this.PolizaActual = PlanModelo.PolizaActual;               
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Logger.Mensaje(ex.Message);
+                return false;
+            }
+
+
+        }
 
     }
 }
