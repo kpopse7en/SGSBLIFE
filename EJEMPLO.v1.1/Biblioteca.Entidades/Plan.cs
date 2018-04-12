@@ -18,36 +18,38 @@ namespace Biblioteca.Entidades
             Entidades = new Biblioteca.DALC.BeLifeEntities();
         }
 
-        //public List<EstadoCivil> ListarEstadoCivil()
-        //{
-        //    try
-        //    {
-        //        //coleccion del tipo clase 
-        //        List<EstadoCivil> ListadoEstCiv = new List<EstadoCivil>();
+        public List<Plan> ListarPlan()
+        {
+            try
+            {
+                //coleccion del tipo clase 
+                List<Plan> ListadoPlan = new List<Plan>();
 
-        //        var EstCivModelo = Entidades.EstadoCivil.ToList();
+                var PlanModelo = Entidades.Plan.ToList();
 
-        //        foreach (DALC.EstadoCivil item in EstCivModelo)
-        //        {
-        //            EstadoCivil EstCiv = new EstadoCivil();
-
-
-        //            EstCiv.Id = item.IdEstadoCivil;
-        //            EstCiv.Descripcion = item.Descripcion;
-
-        //            //listado clientes
-        //            ListadoEstCiv.Add(EstCiv);
-        //        }
-        //        return ListadoEstCiv;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Logger.Mensaje(ex.Message);
-        //        return null;
-        //    }
+                foreach (DALC.Plan item in PlanModelo)
+                {
+                    Plan plan = new Plan();
 
 
-        //}
+                    plan.Id= item.IdPlan;
+                    plan.Nombre = item.Nombre;
+                    plan.PrimaBase = item.PrimaBase;
+                    plan.PolizaActual = item.PolizaActual;
+                   
+                    //listado clientes
+                    ListadoPlan.Add(plan);
+                }
+                return ListadoPlan;
+            }
+            catch (Exception ex)
+            {
+                Logger.Mensaje(ex.Message);
+                return null;
+            }
+
+
+        }
 
     }
 }
