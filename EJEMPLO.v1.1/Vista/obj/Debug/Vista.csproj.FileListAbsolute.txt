@@ -142,3 +142,5 @@ C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\wpfIngresoClie
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\Vista.g.resources
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\iruy_\source\repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\CrearContrato.g.cs
+C:\Users\iruy_\source\repos\SGSBLIFE\EJEMPLO.v1.1\Vista\obj\Debug\CrearContrato.baml
