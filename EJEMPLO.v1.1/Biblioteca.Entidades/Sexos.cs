@@ -7,29 +7,29 @@ using Biblioteca.DALC;//OCUPO LA BIBLIOTECA DE ACCESO A LA bd
 using Biblioteca.Entidades;
 namespace Biblioteca.Entidades
 {
-   public class Sexo
+   public class Sexos
     {//
         public int IdSexo { get; set; }
         public String Descripcion { get; set; }
         Biblioteca.DALC.BeLifeEntities Entidades;//inicaliza
-        public Sexo()
+        public Sexos()
         {
             Entidades = new Biblioteca.DALC.BeLifeEntities();//crea la conexion
         }
         //metodos
                 
-        public List<Sexo> ListarSexo()
+        public List<Sexos> ListarSexo()
         {
             try
             {
                 //coleccion del tipo clase 
-                List<Sexo> ListadoSexo = new List<Sexo>();
+                List<Sexos> ListadoSexo = new List<Sexos>();
 
                 var SexoModelo = Entidades.Sexo.ToList();
 
                 foreach (DALC.Sexo item in SexoModelo)
                 {
-                    Sexo Sex = new Sexo();
+                    Sexos Sex = new Sexos();
 
 
                     Sex.IdSexo = item.IdSexo;

@@ -7,7 +7,7 @@ using Biblioteca.DALC;
 using System.Collections;
 namespace Biblioteca.Entidades
 {
-    public class Cliente
+    public class Clientes
     {
         private string _rutCliente;
 
@@ -32,7 +32,7 @@ namespace Biblioteca.Entidades
         public int IdSexo { get; set; }
         public int IdEstadoCivil { get; set; }
         Biblioteca.DALC.BeLifeEntities Entidades;
-        public Cliente()
+        public Clientes()
         {
             Entidades = new BeLifeEntities();
         }
@@ -145,13 +145,13 @@ namespace Biblioteca.Entidades
 
         }
 
-        public List<Cliente> ListarTodo()
+        public List<Clientes> ListarTodo()
         {
 
             try
             {
                 //coleccion del tipo clase Cliente
-                List<Cliente> ListadoClientes = new List<Cliente>();
+                List<Clientes> ListadoClientes = new List<Clientes>();
                 //crear un objeto con el listado de todos los clientes
                 //almacenados en el ,odelo Entidades
                 var ClientesModelo = Entidades.Cliente.ToList();
@@ -159,7 +159,7 @@ namespace Biblioteca.Entidades
                 //cada obeto Cliente perteneciente al Dalc
                 foreach (DALC.Cliente item in ClientesModelo)
                 {
-                    Cliente Cli = new Cliente();
+                    Clientes Cli = new Clientes();
                     //Creo una clase cliente y se llena con los datos del modelo
                 Cli.RutCliente = item.RutCliente;
                 Cli.Nombres= item.Nombres;
@@ -181,13 +181,13 @@ namespace Biblioteca.Entidades
 
         }
 
-        public List<Cliente> ListarPorSexo(int IdSexo)
+        public List<Clientes> ListarPorSexo(int IdSexo)
         {
 
             try
             {
                 //coleccion del tipo clase Cliente
-                List<Cliente> ListadoClientes = new List<Cliente>();
+                List<Clientes> ListadoClientes = new List<Clientes>();
                 //crear un objeto con el listado de todos los clientes
                 //almacenados en el ,odelo Entidades
                 var ClientesModelo = from a in Entidades.Cliente//solo tome a los a 
@@ -197,7 +197,7 @@ namespace Biblioteca.Entidades
                 //cada obeto Cliente perteneciente al Dalc
                 foreach (DALC.Cliente item in ClientesModelo)
                 {
-                    Cliente Cli = new Cliente();
+                    Clientes Cli = new Clientes();
                     //Creo una clase cliente y se llena con los datos del modelo
                     Cli.RutCliente = item.RutCliente;
                     Cli.Nombres = item.Nombres;

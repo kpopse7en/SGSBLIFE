@@ -23,14 +23,14 @@ namespace Vista
         {
             InitializeComponent();
 
-           List<Biblioteca.Entidades.Sexo> Listado = new Biblioteca.Entidades.Sexo().ListarSexo();
-            foreach (Biblioteca.Entidades.Sexo item in Listado)
+           List<Biblioteca.Entidades.Sexos> Listado = new Biblioteca.Entidades.Sexos().ListarSexo();
+            foreach (Biblioteca.Entidades.Sexos item in Listado)
             {
                 cboSexo.Items.Add(item.Descripcion);
             }
 
-            List<EstadoCivil> Listado2= new EstadoCivil().ListarEstadoCivil();
-            foreach (EstadoCivil item in Listado2)
+            List<EstadosCiviles> Listado2= new EstadosCiviles().ListarEstadoCivil();
+            foreach (EstadosCiviles item in Listado2)
             {
                 cboEstado.Items.Add(item.Descripcion);
             }
@@ -47,7 +47,7 @@ namespace Vista
                     lblRut.Content=("ingrese un rut");
                     lblRut.Foreground = Brushes.Red;
                 }
-                Cliente cli = new Cliente();
+                Clientes cli = new Clientes();
                 cli.RutCliente = txtRut.Text;
                 cli.Nombres = txtnNombre.Text;
                 cli.Apellidos = txtApellido.Text;

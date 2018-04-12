@@ -6,30 +6,30 @@ using System.Threading.Tasks;
 using Biblioteca.DALC;
 namespace Biblioteca.Entidades
 {
-    public class Plan
+    public class Planes
     {
         public String Id { get; set; }
         public String Nombre { get; set; }
         public Double PrimaBase { get; set; }
         public String PolizaActual { get; set; }
         Biblioteca.DALC.BeLifeEntities Entidades;//inicaliza
-        public Plan()
+        public Planes()
         {
             Entidades = new Biblioteca.DALC.BeLifeEntities();
         }
 
-        public List<Plan> ListarPlan()
+        public List<Planes> ListarPlan()
         {
             try
             {
                 //coleccion del tipo clase 
-                List<Plan> ListadoPlan = new List<Plan>();
+                List<Planes> ListadoPlan = new List<Planes>();
 
                 var PlanModelo = Entidades.Plan.ToList();
 
                 foreach (DALC.Plan item in PlanModelo)
                 {
-                    Plan plan = new Plan();
+                    Planes plan = new Planes();
 
 
                     plan.Id= item.IdPlan;

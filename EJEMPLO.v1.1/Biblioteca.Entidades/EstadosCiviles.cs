@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 using Biblioteca.DALC;
 namespace Biblioteca.Entidades
 {
-    public class EstadoCivil
+    public class EstadosCiviles
     {
         public int Id { get; set; }
         public String Descripcion { get; set; }
         Biblioteca.DALC.BeLifeEntities Entidades;
-        public EstadoCivil()
+        public EstadosCiviles()
         {
             Entidades = new BeLifeEntities();
         }
-        public List<EstadoCivil> ListarEstadoCivil()
+        public List<EstadosCiviles> ListarEstadoCivil()
         {
             try
             {
                 //coleccion del tipo clase 
-                List<EstadoCivil> ListadoEstCiv = new List<EstadoCivil>();
+                List<EstadosCiviles> ListadoEstCiv = new List<EstadosCiviles>();
 
                 var EstCivModelo = Entidades.EstadoCivil.ToList();
 
                 foreach (DALC.EstadoCivil item in EstCivModelo)
                 {
-                    EstadoCivil EstCiv = new EstadoCivil();
+                    EstadosCiviles EstCiv = new EstadosCiviles();
 
 
                     EstCiv.Id = item.IdEstadoCivil;

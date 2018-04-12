@@ -7,7 +7,7 @@ using Biblioteca.DALC;
 
 namespace Biblioteca.Entidades
 {
-    public class Contrato
+    public class Contratos
     {
         public String NumeroContrato { get; set; }
         public DateTime Creacion { get; set; }
@@ -25,7 +25,7 @@ namespace Biblioteca.Entidades
         public String Observaciones { get; set; }
         Biblioteca.DALC.BeLifeEntities Entidades;
 
-        public Contrato()
+        public Contratos()
         {
             Entidades = new BeLifeEntities();
 
@@ -127,8 +127,8 @@ namespace Biblioteca.Entidades
         {
             try
             {
-                Biblioteca.Entidades.Plan Plan;
-                Plan = new Entidades.Plan();
+                Biblioteca.Entidades.Planes Plan;
+                Plan = new Entidades.Planes();
                 Biblioteca.DALC.Contrato Con;
                 Con = Entidades.Contrato.First(a => a.Numero.Equals(NumeroContrato));
                 this.NumeroContrato = Con.Numero;
@@ -136,7 +136,7 @@ namespace Biblioteca.Entidades
                 this.Termino = (DateTime)Con.FechaTermino;
                 this.Titular = Con.RutCliente;
                 this.PlanAsociado = Con.CodigoPlan;
-                Plan.BuscarPlan(Con.CodigoPlan);
+                Plan.BuscarPlan(Con.CodigoPlan);//esto esta bien
                 this.Poliza = Plan.PolizaActual;
                 this.InicioVigencia = Con.FechaInicioVigencia;
                 this.FinVigencia = Con.FechaFinVigencia;
@@ -156,11 +156,11 @@ namespace Biblioteca.Entidades
 
         }
 
-        public List<Contrato> ListarTodo()
+        public List<Contratos> ListarTodo()
         {
             try
             {
-                List<Contrato> ListadoContrato = new List<Contrato>();
+                List<Contratos> ListadoContrato = new List<Contratos>();
                 var ContratoModelo = Entidades.Contrato.ToList();
 
                 Biblioteca.DALC.Plan Plan;
@@ -168,7 +168,7 @@ namespace Biblioteca.Entidades
 
                 foreach (var item in ContratoModelo)
                 {
-                    Contrato Con = new Contrato();
+                    Contratos Con = new Contratos();
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
@@ -194,18 +194,18 @@ namespace Biblioteca.Entidades
                 return null;
             }
         }
-        public List<Contrato> ListarporNroContrato(String NumeroContrato)
+        public List<Contratos> ListarporNroContrato(String NumeroContrato)
         {
             try
             {
-                List<Contrato> ListadoContrato = new List<Contrato>();
+                List<Contratos> ListadoContrato = new List<Contratos>();
                 var ContratoModelo = from c in Entidades.Contrato
                                      where c.Numero == NumeroContrato
                                      select c;
 
                 foreach (var item in ContratoModelo)
                 {
-                    Contrato Con = new Contrato();
+                    Contratos Con = new Contratos();
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
@@ -232,18 +232,18 @@ namespace Biblioteca.Entidades
             }
 
         }
-        public List<Contrato> ListarporRut(String Rut)
+        public List<Contratos> ListarporRut(String Rut)
         {
             try
             {
-                List<Contrato> ListadoContrato = new List<Contrato>();
+                List<Contratos> ListadoContrato = new List<Contratos>();
                 var ContratoModelo = from r in Entidades.Contrato
                                      where r.RutCliente == Rut
                                      select r;
 
                 foreach (var item in ContratoModelo)
                 {
-                    Contrato Con = new Contrato();
+                    Contratos Con = new Contratos();
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
@@ -271,19 +271,19 @@ namespace Biblioteca.Entidades
 
         }
         //FILTRAR POR NUMERO DE POLIZA ???
-        public List<Contrato> ListarporNroPoliza(String Poliza)
+        public List<Contratos> ListarporNroPoliza(String Poliza)
         {
             try
             {
                 //hay que corregir lo de poliza para que esto funcione
-                List<Contrato> ListadoContrato = new List<Contrato>();
+                List<Contratos> ListadoContrato = new List<Contratos>();
                 var ContratoModelo = from c in Entidades.Contrato
                                      where c.Numero == NumeroContrato
                                      select c;
 
                 foreach (var item in ContratoModelo)
                 {
-                    Contrato Con = new Contrato();
+                    Contratos Con = new Contratos();
 
                     Con.NumeroContrato = item.Numero;
                     Con.Creacion = item.FechaCreacion;
