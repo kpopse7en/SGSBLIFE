@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Biblioteca.DALC;//OCUPO LA BIBLIOTECA DE ACCESO A LA bd
+using Biblioteca.Entidades;
 namespace Biblioteca.Entidades
 {
    public class Sexo
@@ -16,7 +17,7 @@ namespace Biblioteca.Entidades
             Entidades = new Biblioteca.DALC.BeLifeEntities();//crea la conexion
         }
         //metodos
-        
+                
         public List<Sexo> ListarSexo()
         {
             try

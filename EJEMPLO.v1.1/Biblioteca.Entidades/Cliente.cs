@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Biblioteca.DALC;
+using System.Collections;
 namespace Biblioteca.Entidades
 {
     public class Cliente

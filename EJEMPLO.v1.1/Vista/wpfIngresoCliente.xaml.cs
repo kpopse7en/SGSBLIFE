@@ -23,8 +23,8 @@ namespace Vista
         {
             InitializeComponent();
 
-           List<Sexo> Listado = new Sexo().ListarSexo();
-            foreach (Sexo item in Listado)
+           List<Biblioteca.Entidades.Sexo> Listado = new Biblioteca.Entidades.Sexo().ListarSexo();
+            foreach (Biblioteca.Entidades.Sexo item in Listado)
             {
                 cboSexo.Items.Add(item.Descripcion);
             }
