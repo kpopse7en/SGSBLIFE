@@ -22,6 +22,7 @@ namespace Vista
         public wpfIngresoCliente()
         {
             InitializeComponent();
+
            List<Sexo> Listado = new Sexo().ListarSexo();
             foreach (Sexo item in Listado)
             {
@@ -37,7 +38,7 @@ namespace Vista
 
        
 
-        private void btn_ingresarcli(object sender, RoutedEventArgs e)
+        private void ingresar(object sender, RoutedEventArgs e)
         {
             try
             {
