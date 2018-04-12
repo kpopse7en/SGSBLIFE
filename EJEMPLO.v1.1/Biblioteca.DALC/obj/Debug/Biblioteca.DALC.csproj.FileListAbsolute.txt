@@ -20,3 +20,11 @@ D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.dll
 D:\EJEMPLO\Biblioteca.DALC\bin\Debug\EntityFramework.xml
 D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
 D:\EJEMPLO\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll.config
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\EntityFramework.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\bin\Debug\EntityFramework.xml
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.DALC\obj\Debug\Biblioteca.DALC.pdb

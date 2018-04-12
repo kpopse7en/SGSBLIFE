@@ -23,3 +23,11 @@ C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\EntityFramework.dll
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.pdb
 C:\Users\iruy_\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\Biblioteca.Entidades.pdb
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\Biblioteca.DALC.pdb
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.dll
+C:\Users\Duoc\Source\Repos\SGSBLIFE\EJEMPLO.v1.1\Biblioteca.Entidades\obj\Debug\Biblioteca.Entidades.pdb
