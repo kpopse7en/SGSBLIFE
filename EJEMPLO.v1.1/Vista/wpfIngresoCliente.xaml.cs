@@ -27,14 +27,17 @@ namespace Vista
             {
                 cboSexo.Items.Add(item.Descripcion);
             }
+
+            List<EstadoCivil> Listado2= new EstadoCivil().ListarEstadoCivil();
+            foreach (EstadoCivil item in Listado2)
+            {
+                cboEstado.Items.Add(item.Descripcion);
+            }
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
+       
 
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void btn_ingresarcli(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -72,7 +75,7 @@ namespace Vista
             }
             catch (Exception ex)
             {
-
+                Biblioteca.Logger.Mensaje(ex.Message);
                 MessageBox.Show("Error al Ingresar");
             }
         }
