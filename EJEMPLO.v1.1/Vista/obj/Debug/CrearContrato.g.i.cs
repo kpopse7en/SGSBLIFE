@@ -75,7 +75,7 @@ namespace Vista {
         
         #line 15 "..\..\CrearContrato.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox txt_plan;
+        internal System.Windows.Controls.TextBox txt_titular;
         
         #line default
         #line hidden
@@ -83,7 +83,7 @@ namespace Vista {
         
         #line 16 "..\..\CrearContrato.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox txt_titular;
+        internal System.Windows.Controls.TextBox txt_obs;
         
         #line default
         #line hidden
@@ -91,7 +91,7 @@ namespace Vista {
         
         #line 17 "..\..\CrearContrato.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.TextBox txt_obs;
+        internal System.Windows.Controls.Button btn_registrar;
         
         #line default
         #line hidden
@@ -99,7 +99,7 @@ namespace Vista {
         
         #line 18 "..\..\CrearContrato.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btn_registrar;
+        internal System.Windows.Controls.Button btn_volver;
         
         #line default
         #line hidden
@@ -107,7 +107,7 @@ namespace Vista {
         
         #line 19 "..\..\CrearContrato.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
-        internal System.Windows.Controls.Button btn_volver;
+        internal System.Windows.Controls.ComboBox cbo_plan;
         
         #line default
         #line hidden
@@ -155,19 +155,19 @@ namespace Vista {
             this.label2 = ((System.Windows.Controls.Label)(target));
             return;
             case 5:
-            this.txt_plan = ((System.Windows.Controls.TextBox)(target));
-            return;
-            case 6:
             this.txt_titular = ((System.Windows.Controls.TextBox)(target));
             return;
-            case 7:
+            case 6:
             this.txt_obs = ((System.Windows.Controls.TextBox)(target));
             return;
-            case 8:
+            case 7:
             this.btn_registrar = ((System.Windows.Controls.Button)(target));
             return;
-            case 9:
+            case 8:
             this.btn_volver = ((System.Windows.Controls.Button)(target));
+            return;
+            case 9:
+            this.cbo_plan = ((System.Windows.Controls.ComboBox)(target));
             return;
             }
             this._contentLoaded = true;
