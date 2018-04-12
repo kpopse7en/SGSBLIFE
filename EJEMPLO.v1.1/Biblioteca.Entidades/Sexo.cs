@@ -11,7 +11,7 @@ namespace Biblioteca.Entidades
     {//
         public int IdSexo { get; set; }
         public String Descripcion { get; set; }
-        Biblioteca.DALC.BeLifeEntities Entidades;//inicaliza
+        Biblioteca.DALC.BeLifeEntities Entidades;//inicializa
         public Sexo()
         {
             Entidades = new Biblioteca.DALC.BeLifeEntities();//crea la conexion
