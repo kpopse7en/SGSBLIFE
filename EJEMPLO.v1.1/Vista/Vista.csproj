@@ -71,11 +71,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataSet2.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DataSet2.xsd</DependentUpon>
-    </Compile>
     <Compile Include="ListarEstado.xaml.cs">
       <DependentUpon>ListarEstado.xaml</DependentUpon>
     </Compile>
@@ -160,17 +155,6 @@
     <None Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="DataSet2.xsc">
-      <DependentUpon>DataSet2.xsd</DependentUpon>
-    </None>
-    <None Include="DataSet2.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="DataSet2.xss">
-      <DependentUpon>DataSet2.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -181,13 +165,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ClientDelete.png" />
+    <Resource Include="Logo BeLife.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ClientAdd.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Clientes.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ClientSearch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Contratos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ClientDelete.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ClientUpdate.png" />
@@ -205,16 +198,7 @@
     <Resource Include="ContractUpdate.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Contratos.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="DataSearch.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Logo BeLife.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="ClientAdd.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="IMAGENES\" />

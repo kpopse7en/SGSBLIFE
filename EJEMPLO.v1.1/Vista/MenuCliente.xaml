@@ -18,14 +18,8 @@
                 <Button x:Name="button2" Content="Eliminar" HorizontalAlignment="Left" Margin="60,265,0,0" VerticalAlignment="Top" Width="75"/>
                 <Button x:Name="button3" Content="Actualizar" HorizontalAlignment="Left" Margin="245,265,0,0" VerticalAlignment="Top" Width="75"/>
                 <Image x:Name="DataSearch_png" Margin="392,133,24,129" Source="DataSearch.png" Stretch="Fill"/>
-                <ComboBox x:Name="cboFiltro" HorizontalAlignment="Left" Margin="357,184,0,0" VerticalAlignment="Top" Width="110" SelectedIndex="0">
-                    <ComboBoxItem Content="Seleccione Filtro"/>
-                    <ComboBoxItem Content="Por Rut"/>
-                    <ComboBoxItem Content="Por Sexo"/>
-                    <ComboBoxItem Content="Por Estado Civil"/>
-                </ComboBox>
-                <Button x:Name="button4" Content="Filtrar" HorizontalAlignment="Left" Margin="378,223,0,0" VerticalAlignment="Top" Width="75" Click="button4_Click"/>
-                <Label x:Name="lblFaltaFiltro" Content="" HorizontalAlignment="Left" Margin="378,250,0,0" VerticalAlignment="Top" Width="75" FontSize="9"/>
+                <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="370,184,0,0" VerticalAlignment="Top" Width="97"/>
+                <Button x:Name="button4" Content="Filtrar" HorizontalAlignment="Left" Margin="378,223,0,0" VerticalAlignment="Top" Width="75"/>
             </Grid>
         </GroupBox>
         <Image x:Name="Clientes_png" Margin="367,38,38,230" Source="Clientes.png" Stretch="Fill"/>
